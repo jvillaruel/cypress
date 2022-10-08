@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "api": "cypress run --spec 'cypress/e2e/api/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvillaruel/cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvillaruel/cypress/issues"
+  },
+  "homepage": "https://github.com/jvillaruel/cypress#readme",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}
